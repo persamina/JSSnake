@@ -1,0 +1,59 @@
+body { 
+  font-family: 'Sintony', sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #59554E;
+}
+.col {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border: 1px solid #E2E3D9;
+}
+.content {
+  width: 352px;
+  text-align: center;
+}
+
+.board {
+  width: 352px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #E2E3D9;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.score {
+  margin: 10px;
+  display: inline-block;
+}
+.highScore {
+  margin: 10px;
+  display: inline-block;
+}
+
+.row { 
+  width: 352px;
+  height: 22px;
+  padding: 0px;
+  margin: auto;
+}
+
+.snake {
+  background-color: #32CD32;
+}
+
+.apple { 
+  color: #FF0800;
+  margin: 0;
+  background-image:url('../images/apple.png');
+}
+.fa {
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}
