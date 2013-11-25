@@ -47,12 +47,16 @@
       this.board.snake.dir = "S";
     }
     if (event.keyCode === 32) {
+      clearInterval(this.generateApplesId);
+      clearInterval(this.generateStepId);
+
       this.updateScore();
       var boardCenter = Math.floor(SnakeGame.Board.HEIGHT/2);
       this.board.snake.segments = [[boardCenter, boardCenter]];
       this.generateApplesId = setInterval(this.generateApples.bind(this), 5000);
       this.generateApples();
       this.generateStepId = setInterval(this.step.bind(this), 100);
+
     }
 
   }
